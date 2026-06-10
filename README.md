@@ -66,6 +66,9 @@ https://github.com/Ishi181/AI-Recruitment-ATS
 * Built backend logic using Python
 * Developed voice-based interactions using Alexa Skills Kit
 
+  🔗 Repository:
+  https://github.com/Ishi181/Alexa-Project
+
 ---
 
 ### Programmable Photonics Circuits
