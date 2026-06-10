@@ -1,46 +1,103 @@
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
+# Hi 👋, I'm Ishi Singla
 
-/*
-       REQUIREMENTS
-    1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
-    2. Your contract will have a mapping of addresses to balances (address => uint)
-    3. You will have a mint function that takes two parameters: an address and a value. 
-       The function then increases the total supply by that number and increases the balance 
-       of the “sender” address by that amount
-    4. Your contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. 
-       It will take an address and value just like the mint functions. It will then deduct the value from the total supply 
-       and from the balance of the “sender”.
-    5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
-       to the amount that is supposed to be burned.
-*/
+### Computer Science Engineering Student | Python Developer | Data Analyst Enthusiast
 
-contract MyToken {
+---
 
-    // public variables here
-     string public tokenName = "Meta";
-     string public tokenAbbrev = "MTA";
-     uint public totalSupply = 0;
-    // mapping variable here
-    mapping(address => uint) public balances;
+## 🚀 About Me
 
-    // mint function
-    function mint (address _address , uint _value) public{
-        if(balances[_address] >= _value) {
-          totalSupply += _value;
-          balances[_address] += _value;
-        }
-    }
+* 🎓 Bachelor of Engineering in Computer Science Engineering
+* 🏫 Chandigarh University
+* 💻 Interested in Software Development, Data Analytics, Automation, and AI
+* 🌱 Currently learning Python, Flask, SQL, Data Analytics, and Backend Development
+* 🚀 Passionate about building real-world projects and solving practical problems
 
+---
 
-    // burn function
-    function burn (address _address , uint _value) public{
-        totalSupply -= _value;
-        balances[_address] -= _value;
+## 🛠️ Skills
 
-    }
+### Programming Languages
 
-    
-    
+* Python
+* Java
+* JavaScript
+* SQL
 
-}
+### Web Development
+
+* HTML
+* CSS
+* Bootstrap
+* Flask
+
+### Databases
+
+* MySQL
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* MySQL Workbench
+* MS Excel
+* Power BI
+
+---
+
+## 📂 Featured Projects
+
+### AI-Powered Recruitment & Applicant Tracking System (ATS)
+
+* Resume Upload and Parsing
+* Skill Matching Engine
+* Candidate Shortlisting
+* Recruiter Dashboard
+* Recruitment Analytics
+* Flask + MySQL Integration
+
+🔗 Repository:
+https://github.com/Ishi181/AI-Recruitment-ATS
+
+---
+
+### Alexa AI Assistant Model
+
+* Built backend logic using Python
+* Developed voice-based interactions using Alexa Skills Kit
+
+---
+
+### Programmable Photonics Circuits
+
+* Conducted simulation-based analysis of photonics technologies
+* Comparative study using specialized simulation tools
+
+---
+
+## 📜 Certifications
+
+* Databases and SQL for Data Science with Python (Coursera)
+* Advanced JavaScript Course Completion (Metacrafters)
+* Microsoft Office Fundamentals (LinkedIn Learning)
+* The Science of Well-Being (Yale University)
+* NCC A Certificate
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ishi181\&show_icons=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ishi181\&layout=compact)
+
+---
+
+## 📫 Connect With Me
+
+* GitHub: https://github.com/Ishi181
+* LinkedIn: Add your LinkedIn profile link here
+
+---
+
+⭐ Always excited to learn new technologies and work on impactful projects.
